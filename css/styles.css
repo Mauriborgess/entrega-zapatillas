@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main {
+    height: 400px;
+    display: flex;
+}
+
+.main_text {
+    font-size: small;
+}
+
+.main_img_container {
+    height: 250px;
+}
+
+.main_img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.shoes_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shoes {
+    position: relative;
+    width: 360px;
+}
+
+.shoes_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.sale {
+    background-color: #FF0000;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.price {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.Model {
+    background-color: #f2f2f2 ;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+.img_model_container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.img_model {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.img_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
